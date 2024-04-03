@@ -5,14 +5,13 @@ import Image from "next/image";
 function Header() {
   return (
     <header
-      className="laptop:h-[695px] w-full h-full pt-3 laptop:pt-0 rounded-b-[20px]"
+      className="laptop:h-[695px] bg-no-repeat laptop:bg-[url(/images/banner.svg)] w-full h-full pt-3 laptop:pt-0 rounded-b-[20px]"
       style={{
-        background:
-          "linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%)",
+        backgroundColor: "#FCEED5",
         zIndex: -2,
       }}
     >
-      <div
+      {/* <div
         className="hidden bg-no-repeat laptop:flex "
         style={{
           height: "695px",
@@ -31,7 +30,7 @@ function Header() {
           zIndex: -1,
           backgroundImage: `url(/images/banner-mobile.svg)`,
         }}
-      />
+      /> */}
       <Navigation />
       <div className="flex flex-col laptop:flex-row justify-between desktop2k:px-[130px] laptop:px-[80px] pl-[14px] laptop:h-full">
         <div className="w-full laptop:max-w-[360px] desktop:max-w-[490px]">
