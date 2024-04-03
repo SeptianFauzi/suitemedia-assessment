@@ -1,0 +1,172 @@
+import {
+  EGender,
+  IPetKnowledge,
+  IPetsDetails,
+  IToysList,
+} from "./pets.interface";
+
+export const petOverview: IPetsDetails[] = [
+  {
+    id: 1,
+    name: "MO231 - Pomeranian White",
+    gender: EGender.MALE,
+    age: "02",
+    price: 6900000,
+    imageSource: "/images/puppy-1.png",
+  },
+  {
+    id: 2,
+    name: "MO502 - Poodle Tiny Yellow",
+    gender: EGender.FEMALE,
+    age: "02",
+    price: 3900000,
+    imageSource: "/images/puppy-2.png",
+  },
+  {
+    id: 3,
+    name: "MO102 - Poodle Tiny Sepia",
+    gender: EGender.MALE,
+    age: "02",
+    price: 4000000,
+    imageSource: "/images/puppy-3.png",
+  },
+  {
+    id: 4,
+    name: "MO512 - Alaskan Malamute Grey",
+    gender: EGender.MALE,
+    age: "02",
+    price: 8900000,
+    imageSource: "/images/puppy-4.png",
+  },
+  {
+    id: 5,
+    name: "MO231 - Pembroke Corgi Cream",
+    gender: EGender.MALE,
+    age: "02",
+    price: 7900000,
+    imageSource: "/images/puppy-5.png",
+  },
+  {
+    id: 6,
+    name: "MO502 - Pembroke Corgi Tricolor",
+    gender: EGender.FEMALE,
+    age: "02",
+    price: 9000000,
+    imageSource: "/images/puppy-6.png",
+  },
+  {
+    id: 7,
+    name: "MO231 - Pomeranian White",
+    gender: EGender.FEMALE,
+    age: "02",
+    price: 6500000,
+    imageSource: "/images/puppy-7.png",
+  },
+  {
+    id: 8,
+    name: "MO512 - Poodle Tiny Dairy Cow",
+    gender: EGender.MALE,
+    age: "02",
+    price: 5000000,
+    imageSource: "/images/puppy-8.png",
+  },
+];
+
+export const toysList: IToysList[] = [
+  {
+    id: 1,
+    name: "Reflex Plus Adult Cat Food Salmon",
+    price: 140000,
+    imageSource: "/images/toys-1.png",
+    product: "Dog Food",
+    size: "385gm",
+    bonus: "Free Toy & Free Shaker",
+  },
+  {
+    id: 2,
+    name: "Reflex Plus Adult Cat Food Salmon",
+    price: 165000,
+    imageSource: "/images/toys-2.png",
+    product: "Cat Food",
+    size: "1.5kg",
+    bonus: "Free Toy & Free Shaker",
+  },
+  {
+    id: 3,
+    name: "Cat scratching ball toy kitten sisal rope ball",
+    price: 1100000,
+    imageSource: "/images/toys-3.png",
+    product: "Toy",
+    size: "",
+    bonus: "Free Cat Food",
+  },
+  {
+    id: 4,
+    name: "Cute Pet Cat Warm Nest",
+    price: 410000,
+    imageSource: "/images/toys-4.png",
+    product: "Toy",
+    size: "",
+    bonus: "Free Cat Food",
+  },
+  {
+    id: 5,
+    name: "NaturVet Dogs - Omega-Gold Plus Salmon Oil",
+    price: 350000,
+    imageSource: "/images/toys-5.png",
+    product: "Dog Food",
+    size: "385gm",
+    bonus: "Free Toy & Free Shaker",
+  },
+  {
+    id: 6,
+    name: "Costumes Fashion Pet Clother Cowboy Rider",
+    price: 500000,
+    imageSource: "/images/toys-6.png",
+    product: "Costume",
+    size: "1.5kg",
+    bonus: "Free Toy & Free Shaker",
+  },
+  {
+    id: 7,
+    name: "Costumes Chicken Drumsti ck Headband",
+    price: 400000,
+    imageSource: "/images/toys-7.png",
+    product: "Custome",
+    size: "",
+    bonus: "Free Cat Food",
+  },
+  {
+    id: 8,
+    name: "Plush Pet Toy",
+    price: 250000,
+    imageSource: "/images/toys-8.png",
+    product: "Toy",
+    size: "",
+    bonus: "Free Cat Food",
+  },
+];
+export const petKnowLedge: IPetKnowledge[] = [
+  {
+    id: 1,
+    title: "What is a Pomeranian? How to Identify Pomeranian Dogs",
+    imageSource: "/images/pet-knowledge-1.png",
+    description:
+      "The Pomeranian, also known as the Pomeranian (Pom dog), is always in the top of the cutest pets. Not only that, the small, lovely, smart, friendly, and skillful circus dog breed.",
+  },
+  {
+    id: 2,
+    title: "Dog Diet You Need To Know",
+    imageSource: "/images/pet-knowledge-2.png",
+    description:
+      "Dividing a dog's diet may seem simple at first, but there are some rules you should know so that your dog can easily absorb the nutrients in the diet. For those who are just starting to raise dogs, especially newborn puppies with relatively weak resistance.",
+  },
+  {
+    id: 3,
+    title:
+      "Why Dogs Bite and Destroy Furniture and How to Prevent It Effectively",
+    imageSource: "/images/pet-knowledge-3.png",
+    description:
+      "Dog bites are common during development. However, no one wants to see their furniture or important items being bitten by a dog.",
+  },
+];
