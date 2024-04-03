@@ -49,14 +49,19 @@ function Header() {
           <div className="flex mt-8 laptop:mt-10 gap-5 laptop:gap-7">
             <button className="flex items-center gap-2 border border-dark-blue-00 text-dark-blue-00 font-semi text-base rounded-[57px] py-[14px] px-7 font-medium">
               View Intro
-              <img src="/images/play-button-icon.png" alt="" />
+              <Image
+                width={20}
+                height={20}
+                src="/images/play-button-icon.png"
+                alt=""
+              />
             </button>
             <button className="flex items-center gap-1 border border-dark-blue-00 text-neural-color-00 font-semi text-base rounded-[57px] py-[14px] px-7 bg-dark-blue-00 font-medium">
               Explore Now
             </button>
           </div>
         </div>
-        <div className="hidden absolute laptop:flex justify-end -translate-y-4 right-0 rounded-b-[20px] laptop:mt-[185px] desktop:mt-8">
+        <div className="hidden absolute laptop:flex justify-end -translate-y-4 right-0 rounded-b-[20px] laptop:mt-[185px] desktop:mt-8 desktop2k:mt-0">
           <Image
             decoding="async"
             data-nimg="1"

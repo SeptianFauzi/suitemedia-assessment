@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 
 function Navigation() {
@@ -9,7 +10,7 @@ function Navigation() {
       <ul
         className={
           openMobileMenu
-            ? `flex flex-col bg-white fixed w-full z-50 rounded-2xl gap-4 px-0 left-0 items-center py-4 top-0`
+            ? `flex flex-col bg-white fixed w-full z-50 rounded-b-2xl gap-4 px-0 left-0 items-center py-4 top-0`
             : `hidden laptop:flex desktop2k:gap-12 laptop:gap-6 items-center`
         }
       >
@@ -25,7 +26,9 @@ function Navigation() {
         )}
         <li>
           <a href="" aria-label="Logo">
-            <img
+            <Image
+              width={100}
+              height={100}
               className="z-10 relative"
               src="/images/monito-logo.svg"
               alt=""
@@ -76,7 +79,9 @@ function Navigation() {
             setOpenMobileMenu(true);
           }}
         >
-          <img
+          <Image
+            width={20}
+            height={20}
             className="hover:cursor-pointer"
             src="/images/menu-hamburger-icon.svg"
             alt=""
@@ -84,7 +89,9 @@ function Navigation() {
         </li>
         <li>
           <a href="" aria-label="Logo">
-            <img
+            <Image
+              width={100}
+              height={100}
               className="z-10 relative"
               src="/images/monito-logo.svg"
               alt=""
@@ -92,7 +99,9 @@ function Navigation() {
           </a>
         </li>
         <li>
-          <img
+          <Image
+            width={20}
+            height={20}
             className="hover:cursor-pointer"
             src="/images/menu-search-icon.svg"
             alt=""
@@ -109,7 +118,9 @@ function Navigation() {
             placeholder="Search something here!"
           />
           <div className="absolute inset-y-1 pl-4 left-0 flex items-center pointer-events-none">
-            <img
+            <Image
+              width={20}
+              height={20}
               className=" text-neural-color-60"
               src="/images/search-icon.svg"
               alt=""
@@ -125,10 +136,12 @@ function Navigation() {
         </a>
         <div className="flex gap-1 p-2 items-center">
           <div className="flex gap-[6px]">
-            <img src="/images/star-icon.svg" alt="" />
+            <Image width={20} height={20} src="/images/star-icon.svg" alt="" />
             <p className="text-base font-medium text-dark-blue-80">VND</p>
           </div>
-          <img
+          <Image
+            width={20}
+            height={20}
             className="hover:cursor-pointer"
             src="/images/arrow-icon.svg"
             alt=""

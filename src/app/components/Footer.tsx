@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function Footer() {
@@ -66,16 +67,21 @@ function Footer() {
           </ul>
           <div className="flex gap-10 justify-center">
             <a href="" aria-label="Facebook">
-              <img src="/images/facebook.svg" alt="" />
+              <Image width={20} height={20} src="/images/facebook.svg" alt="" />
             </a>
             <a href="" aria-label="Twitter">
-              <img src="/images/twitter.svg" alt="" />
+              <Image width={20} height={20} src="/images/twitter.svg" alt="" />
             </a>
             <a href="" aria-label="Instagram">
-              <img src="/images/instagram.svg" alt="" />
+              <Image
+                width={20}
+                height={20}
+                src="/images/instagram.svg"
+                alt=""
+              />
             </a>
             <a href="" aria-label="Youtube">
-              <img src="/images/youtube.svg" alt="" />
+              <Image width={20} height={20} src="/images/youtube.svg" alt="" />
             </a>
           </div>
         </div>
@@ -84,7 +90,9 @@ function Footer() {
         <p className="text-neural-color-60 hidden laptop:flex text-sm font-medium">
           © 2022 Monito. All rights reserved.
         </p>
-        <img
+        <Image
+          width={150}
+          height={150}
           className="w-[150px] laptop:pb-0 pb-10"
           src="/images/monito-logo.svg"
           alt=""

@@ -17,7 +17,12 @@ function PetOverView() {
         </div>
         <button className="hidden laptop:flex items-center gap-2 border-[1.5px] border-dark-blue-00 text-dark-blue-00 font-semi text-sm rounded-[57px] py-3 px-7  font-medium">
           View More
-          <img src="/images/arrow-right-icon.svg" alt="" />
+          <Image
+            width={20}
+            height={20}
+            src="/images/arrow-right-icon.svg"
+            alt=""
+          />
         </button>
       </div>
       <div className="flex justify-center">
